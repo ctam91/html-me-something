@@ -1,0 +1,1 @@
+LaunchCode assignment: Build a site from scratch using HTML and CSS.
