@@ -1,13 +1,18 @@
-/*headers*/
+/*headings*/
 h1 {
     font-family: Poiret one, cursive; 
     text-align: center; 
     font-weight: bold;
     font-size: 2.5em; 
+    padding-top: 1em; 
 }
 
 h2{
     color: darkgreen;
+}
+
+header {
+    background-color: white; 
 }
 /*nav bar*/
 .navbar{
@@ -44,35 +49,36 @@ body {
    margin-bottom: 0;
 }
 
-/* Contact Section */
+article{
+    background-color: white; 
+}
+
+section {
+    margin-left: 2em; 
+    margin-right: 2em;
+}
+
 figcaption{
     font-style: italic; 
-}
-
-#contact{
-  background: #E5E4E2;
-  background-size:cover;
-  text-align: center;
-  padding-bottom:1em;
-  padding-top:1em;
-  font-family: calibri; 
-}
-
-.email{
-    color:black; 
-    font-weight:bold; 
-    padding-top:5em;
+    text-align: center; 
+    padding-bottom: 1em; 
 }
 
 .images {
     width: 50%;
     height: auto;
     margin: auto;
+    display: block; 
+    padding-bottom: 1em; 
 }
+/* Contact Section */
 
-.underline{
-
- border: 0.05em forestgreen solid; 
+#contact{
+  background-size:cover;
+  text-align: center; 
+  padding-bottom:1em;
+  padding-top:1em;
+  font-family: calibri; 
 }
 
 /*Footer*/
@@ -81,4 +87,5 @@ footer{
     font-size:0.8em; 
     text-align:center; 
     padding-top: 2em;
+    padding-bottom: 1em;
 }
