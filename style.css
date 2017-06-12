@@ -1,4 +1,30 @@
-img{
-    height: 50%;
-    width: 50%;
+/*nav bar*/
+nav{
+    text-align: center;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0.5em;
+}
+
+/*body styling */
+
+body {
+   margin-left: 5em;
+   margin-right: 5em; 
+}
+
+/*Image styling */
+img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
