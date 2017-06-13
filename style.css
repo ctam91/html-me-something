@@ -22,6 +22,7 @@ header {
     background: grey;
     padding-top:0.2em;
     padding-bottom: 0.2em;
+    font-size: .8em;
 }
 
 nav ul {
@@ -47,6 +48,7 @@ body {
    margin-left: 7em;
    margin-right: 7em; 
    margin-bottom: 0;
+   font-size: 1.3em; 
 }
 
 article{
@@ -64,6 +66,9 @@ figcaption{
     padding-bottom: 1em; 
 }
 
+a:hover {
+    color: darkgreen;
+}
 .images {
     width: 50%;
     height: auto;
